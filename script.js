@@ -1,5 +1,6 @@
 // TMDB Movie API
-const API_KEY = "api_key=1cf50e6248dc270629e802686245c2c8"; // API Key
+//const API_KEY = "api_key=1cf50e6248dc270629e802686245c2c8"; // API Key
+const API_KEY = "api_key=4626200399b08f9d04b72348e3625f15";
 const BASE_URL = "https://api.themoviedb.org/3";
 // const API_URL = BASE_URL + "/discover/movie?sort_by=popularity.desc&" + API_KEY;
 const API_URL = `${BASE_URL}/discover/movie?sort_by=popularity.desc&${API_KEY}`; // Template literal
